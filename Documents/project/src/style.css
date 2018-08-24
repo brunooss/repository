@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.Cart {
+  display: inline-flex;
+  background-color: rgb(240, 194, 77);
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  border-radius: 0.5em;
+  margin-top: -20px;
+}
+
+.Master {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.Item {
+  display: inline-flex;
+  padding: 8px;
+  background-color: rgb(231, 231, 231);
+  border-radius: 0.5em;
+  width: 280px;
+  margin: 3px;
+}
+
+.ItemImg {
+  width: 80px;
+  height: 80px;
+}
+
+.ItemTitle {
+  margin: 10px;
+  margin-top: -4px;
+}
+
+.ItemSubtitle {
+  margin: 10px;
+  margin-top: -10px;
+  width: 100px;
+}
+.ItemButtonHolder {
+  display: flex;
+}
+
+.ItemButton {
+  margin: 2px;
+  background-color: rgb(212, 212, 212);
+  border-style: solid;
+  border-color: rgb(212, 212, 212);
+  font-size: 20px;
+  height: 30px;
+  width: 40px;
+  text-align: center;
+}
+
+.ItemButton:active {
+  margin: 2px;
+  background-color: rgb(196, 196, 196);
+  border-style: solid;
+  border-color: rgb(196, 196, 196);
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
